@@ -61,8 +61,7 @@ document.addEventListener('DOMContentLoaded', function () {
     updateCounter();
   }
 
-  // Event delegation: one listener on the list
-  function handleListClick(e) {
+    function handleListClick(e) {
     let target = e.target;
     let li = target.tagName === 'LI' ? target : target.parentNode;
 
